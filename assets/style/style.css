@@ -17,3 +17,8 @@
     border-top: 3px solid white;
     width: 80px;
 }
+
+.my_decoration_b{
+    border-top: 3px solid black;
+    width: 80px;
+}
