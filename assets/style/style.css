@@ -10,6 +10,10 @@
     background-color: #2d3f50;
 }
 
+.my_color_footer{
+    background-color: #3b546c;
+}
+
 .my_cont_fluid{
     background-color: #1bbd9c;
 }
@@ -28,4 +32,13 @@ hr{
     width: 20%;
     text-align: center;
     margin-left: 40%;
+}
+
+#start_b{
+    color: #1bbb9a;
+}
+
+.col-4 i{
+    width: 20px;
+    height: 20px;
 }
