@@ -1,3 +1,4 @@
+
 .my_title{
     color: white;
 }
@@ -21,4 +22,10 @@
 .my_decoration_b{
     border-top: 3px solid black;
     width: 80px;
+}
+
+hr{
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
 }
