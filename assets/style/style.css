@@ -1,0 +1,19 @@
+.my_title{
+    color: white;
+}
+.my_link{
+    color: white;
+}
+
+.my_color{
+    background-color: #2d3f50;
+}
+
+.my_cont_fluid{
+    background-color: #1bbd9c;
+}
+
+.my_decoration{
+    border-top: 3px solid white;
+    width: 80px;
+}
