@@ -15,42 +15,51 @@
     </head>
     <body>
         <header class=" my_color">
-              <nav class="navbar navbar-expand-md  bg-body-tertiary p-0 ">
-                <div class="container-fluid my_color d-flex justify-content-between px-4 py-3">
-                    <a class="navbar nav-link text-decoration-none my_title " href="#">START BOOTSTRAP</a>
-                  <button class="navbar-toggler my_color" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Select link</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <nav class="navbar navbar-expand-md  bg-body-tertiary p-0 ">
+                <div
+                    class="container-fluid my_color d-flex justify-content-between px-4 py-3">
+                    <a class="navbar nav-link text-decoration-none my_title "
+                        href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler my_color" type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end my_cont_fluid"
+                        tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header my_bg_white">
+                            <h5 class="offcanvas-title"
+                                id="offcanvasNavbarLabel">Select link</h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ">
+                            <ul
+                                class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2">
+                                <li class="nav-item ">
+                                    <a class="nav-link  my_title "
+                                        aria-current="page" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link my_title" href="#">About</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link my_title" href="#">Contact</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
                     </div>
-                    <div class="offcanvas-body my_cont_fluid">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2">
-                        <li class="nav-item ">
-                          <a class="nav-link  my_title " aria-current="page" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item ">
-                          <a class="nav-link my_title" href="#">About</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link my_title" href="#">Contact</a>
-                          </li>
-                        
-                      </ul>
-                      <!-- <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="type here" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Go</button>
-                      </form> -->
-                    </div>
-                  </div>
                 </div>
-              </nav>
+            </nav>
 
-
-     
         </header>
+
+        <!-- end section 1 -->
 
         <div class="container-fluid my_cont_fluid ">
             <div class="text-center pt-3 pb-3">
@@ -151,31 +160,54 @@
                 <div class="my_decoration_b"> </div>
             </div>
 
-            <div>Name</div>
-            <hr>
-            <div>Email Address</div>
-            <hr>
-            <div>Phone Number</div>
-            <hr>
-            <div>Message</div>
+            <div class="container-md w-75 text-start">
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <hr>
+                <div class="mb-3 ">
+                    <label for="exampleFormControlInput1 "
+                        class="form-label m-0">Name</label>
+                    <input type="name"
+                        class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                        id="exampleFormControlInput1">
+                </div>
 
-            <div class="btn my_cont_fluid my_title">Send</div>
+                <div class="mb-3 ">
+                    <label for="exampleFormControlInput1" class="form-label m-0">Email
+                        Address</label>
+                    <input type="email"
+                        class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                        id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3 ">
+                    <label for="exampleFormControlInput1"
+                        class="form-label m-0 ">Phone Number</label>
+                    <input type="email"
+                        class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                        id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3  ">
+                    <label for="exampleFormControlTextarea1"
+                        class="form-label m-0">Message</label>
+                    <textarea
+                        class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                        id="exampleFormControlTextarea1 " rows="3"></textarea>
+                </div>
+
+                <div class="btn my_cont_fluid my_title text-start">Send</div>
+
+            </div>
 
         </div>
 
-        <!-- end contact -->
+        <!-- end contact me -->
+
         <footer class="my_color_footer">
             <div class="container my_color_footer">
                 <div
                     class="row justify-content-between p-3 pb-4 my_title align-items-center">
                     <div class=" col-12 col-md-4 text-center ">
-                        <h6 >LOCATION</h6>
+                        <h6>LOCATION</h6>
                         <p class="fs-6">2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
 
@@ -207,12 +239,19 @@
                 </div>
             </div>
 
+            <!-- end top footer -->
+
             <div class="container-fluid text-center my_color">
                 <div class="p-3">
-                <span class="my_title my_fontsize"> Copyright <i class="fa-regular fa-copyright fa-2xs" style="color: #ffffff;"></i>  Your Website 2019 </span>
+                    <span class="my_title my_fontsize"> Copyright <i
+                            class="fa-regular fa-copyright fa-2xs"
+                            style="color: #ffffff;"></i> Your Website 2019
+                    </span>
                 </div>
             </div>
         </footer>
+
+        <!-- end bottom footer -->
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
